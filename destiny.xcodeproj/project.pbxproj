@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F29E9982ABB42CE006B2DE9 /* graphics.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F29E9972ABB42CE006B2DE9 /* graphics.json */; };
 		5F731F002AB8976B00EB2649 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731EFF2AB8976B00EB2649 /* AppDelegate.swift */; };
 		5F731F022AB8976B00EB2649 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731F012AB8976B00EB2649 /* SceneDelegate.swift */; };
 		5F731F042AB8976B00EB2649 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731F032AB8976B00EB2649 /* ViewController.swift */; };
@@ -16,6 +17,9 @@
 		5F731F172AB8976E00EB2649 /* destinyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731F162AB8976E00EB2649 /* destinyTests.swift */; };
 		5F731F212AB8976E00EB2649 /* destinyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731F202AB8976E00EB2649 /* destinyUITests.swift */; };
 		5F731F232AB8976E00EB2649 /* destinyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F731F222AB8976E00EB2649 /* destinyUITestsLaunchTests.swift */; };
+		5F731F312AB89C0E00EB2649 /* B612Mono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F731F302AB89C0E00EB2649 /* B612Mono-Regular.ttf */; };
+		5FE9D9462ABDD99800A08AC7 /* FileLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE9D9452ABDD99800A08AC7 /* FileLoader.swift */; };
+		5FE9D94C2ABDE60700A08AC7 /* story.json in Resources */ = {isa = PBXBuildFile; fileRef = 5FE9D94B2ABDE60700A08AC7 /* story.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F29E9972ABB42CE006B2DE9 /* graphics.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = graphics.json; sourceTree = "<group>"; };
 		5F731EFC2AB8976B00EB2649 /* destiny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = destiny.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F731EFF2AB8976B00EB2649 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F731F012AB8976B00EB2649 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,9 @@
 		5F731F1C2AB8976E00EB2649 /* destinyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = destinyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F731F202AB8976E00EB2649 /* destinyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = destinyUITests.swift; sourceTree = "<group>"; };
 		5F731F222AB8976E00EB2649 /* destinyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = destinyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5F731F302AB89C0E00EB2649 /* B612Mono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "B612Mono-Regular.ttf"; path = "../../../../../Downloads/B612_Mono 2/B612Mono-Regular.ttf"; sourceTree = "<group>"; };
+		5FE9D9452ABDD99800A08AC7 /* FileLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileLoader.swift; sourceTree = "<group>"; };
+		5FE9D94B2ABDE60700A08AC7 /* story.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = story.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +113,11 @@
 				5F731F052AB8976B00EB2649 /* Main.storyboard */,
 				5F731F082AB8976D00EB2649 /* Assets.xcassets */,
 				5F731F0A2AB8976D00EB2649 /* LaunchScreen.storyboard */,
+				5F731F302AB89C0E00EB2649 /* B612Mono-Regular.ttf */,
 				5F731F0D2AB8976D00EB2649 /* Info.plist */,
+				5F29E9972ABB42CE006B2DE9 /* graphics.json */,
+				5FE9D9452ABDD99800A08AC7 /* FileLoader.swift */,
+				5FE9D94B2ABDE60700A08AC7 /* story.json */,
 			);
 			path = destiny;
 			sourceTree = "<group>";
@@ -232,8 +244,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F731F0C2AB8976D00EB2649 /* LaunchScreen.storyboard in Resources */,
+				5F29E9982ABB42CE006B2DE9 /* graphics.json in Resources */,
 				5F731F092AB8976D00EB2649 /* Assets.xcassets in Resources */,
 				5F731F072AB8976B00EB2649 /* Main.storyboard in Resources */,
+				5F731F312AB89C0E00EB2649 /* B612Mono-Regular.ttf in Resources */,
+				5FE9D94C2ABDE60700A08AC7 /* story.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +275,7 @@
 			files = (
 				5F731F042AB8976B00EB2649 /* ViewController.swift in Sources */,
 				5F731F002AB8976B00EB2649 /* AppDelegate.swift in Sources */,
+				5FE9D9462ABDD99800A08AC7 /* FileLoader.swift in Sources */,
 				5F731F022AB8976B00EB2649 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

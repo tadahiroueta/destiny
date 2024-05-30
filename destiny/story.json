@@ -1,0 +1,130 @@
+{
+    "chapters": [
+        {
+            "_id": 0,
+            "graphic": "zork",
+            "text": "HI! Hey, ok, so, do you remember Zork? This game works like that, except you gotta click on one of the options to progress.",
+            "next": [
+                {
+                    "text": "Click here to continue",
+                    "next": 1
+                }
+            ]
+        },
+        {
+            "_id": 1,
+            "graphic": "grizz",
+            "text": "Hey, I'm Grizz. I know I don't look it, but I'm a bear. But I'm only one bear without my brothers. Can you help me find them?",
+            "next": [
+                {
+                    "text": "Sure",
+                    "next": 2
+                },
+                {
+                    "text": "Of course",
+                    "next": 2
+                }
+            ]
+        },
+        {
+            "_id": 2,
+            "graphic": "grizz",
+            "text": "Awesome! Ok, so we gotta look for Panda first. He gets hungry really, really quick. Where do you think we should look for him first?",
+            "next": [
+                {
+                    "text": "That bamboo ramen place",
+                    "next": 3
+                },
+                {
+                    "text": "That Thai place next to Main",
+                    "next": 4
+                }
+            ]
+        },
+        {
+            "_id": 3,
+            "graphic": "chicken",
+            "text": "Oh dang. He's not here. It's just Dr. Chicken on his lunch break. We should check somewhere else",
+            "next": [
+                {
+                    "text": "Head to the Thai place",
+                    "next": 4
+                }
+            ]
+        },
+        {
+            "_id": 4,
+            "graphic": "panda",
+            "text": "PANDA!!! There you are. We've been looking everywhere for you. C'mon let's go find our brother. Where do you think he might be?",
+            "next": [
+                {
+                    "text": "The Arctic",
+                    "next": 5
+                },
+                {
+                    "text": "A refrigerator store",
+                    "next": 6
+                }
+            ]
+        },
+        {
+            "_id": 5,
+            "graphic": "frog",
+            "text": "Welp, we came all this way for nothing. There's nothing here, nothing except for that frozen frog. I hope he gets better soon.",
+            "next": [
+                {
+                    "text": "Let's head back to that refrigarator store.",
+                    "next": 6
+                }
+            ]
+        },
+        {
+            "_id": 6,
+            "graphic": "ice",
+            "text": "I KNEW IT! Little bro, there you are. Come here. ",
+            "next": [
+                {
+                    "text": "Click to continue",
+                    "next": 7
+                }
+            ]
+        },
+        {
+            "_id": 7,
+            "graphic": "bears",
+            "text": "Yay! We are all back together. Yeah, this feels just right. Thank you so much for your help. Is there anything we can do for you in retur?n",
+            "next": [
+                {
+                    "text": "Say goodbye",
+                    "next": 8
+                },
+                {
+                    "text": "Address the elephant in the room",
+                    "next": 9
+                }
+            ]
+        },
+        {
+            "_id": 8,
+            "graphic": null,
+            "text": "The end. ",
+            "next": [
+                {
+                    "text": "Play again",
+                    "next": 1
+                }
+            ]
+        },
+        {
+            "_id": 9,
+            "graphic": "elephant",
+            "text": "Oh, that's Fred. He's cool.",
+            "next": [
+                {
+                    "text": "Say goodbye",
+                    "next": 8
+                }
+            ]
+        }
+    ]
+}
